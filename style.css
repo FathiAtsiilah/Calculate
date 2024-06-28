@@ -59,6 +59,7 @@ input {
 }
   
 .output-container {
+    margin-bottom: 50px;
     text-align: left;
 }
   
@@ -72,6 +73,7 @@ input {
     font-size: 60px;
     font-weight: 700;
     height: 20px;
+    margin-bottom: 30px;
 }
   
 .calculate-button {
