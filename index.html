@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Date Calculate</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="day">DAY</label>
+                    <input type="text" id="day" placeholder="DD">
+                </div>
+                <div class="input-group">
+                    <label for="month">MONTH</label>
+                    <input type="text" id="month" placeholder="MM">
+                </div>
+                <div class="input-group">
+                    <label for="year">YEAR</label>
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+            </div>
+            <div class="button">
+                <div class="Calcu">
+                    
+                </div>
+                <div class="calculate-button" onclick="onSubmit()">
+                    
+                    <img src="assets/images/icon-arrow.svg">
+                </div>
+            </div>
+            <div class="output-container">
+                <p class="output-text"><span class="output" id="years">--</span> years</p>
+                <p class="output-text"><span class="output" id="months">--</span> months</p>
+                <p class="output-text"><span class="output" id="days">--</span> days</p>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
